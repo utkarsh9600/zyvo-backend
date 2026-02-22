@@ -3,7 +3,7 @@ const auth = require("../middleware/auth");
 
 const Hotel = require("../models/Hotel");
 const Booking = require("../models/Booking");
-const Ledger = require("../models/Ledger");
+const Ledger = require("../models/ledger");
 
 const router = express.Router();
 
