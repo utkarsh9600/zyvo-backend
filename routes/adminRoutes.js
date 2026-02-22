@@ -4,7 +4,7 @@ const admin = require("../middleware/admin");
 
 const Booking = require("../models/Booking");
 const Hotel = require("../models/Hotel");
-const Ledger = require("../models/Ledger");
+const Ledger = require("../models/ledger");
 const User = require("../models/User");
 
 const router = express.Router();
