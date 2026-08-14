@@ -34,7 +34,7 @@ app.use(
 // CORS (production safe)
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "*",
+    origin: "https://zyvo-frontend.onrender.com",
     credentials: true,
   })
 );
